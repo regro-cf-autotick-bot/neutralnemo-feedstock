@@ -35,8 +35,8 @@ about:
   summary: A package to calculate approximate neutral surfaces with NEMO model output
   license: MIT
   license_file: LICENSE
-  home: www.github.com/afstyles/neutralNEMO
+  home: https://github.com/afstyles/neutralNEMO
 
 extra:
   recipe-maintainers:
-    - AddYourGitHubIdHere
+    - afstyles
