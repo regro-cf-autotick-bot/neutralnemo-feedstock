@@ -1,5 +1,5 @@
 {% set name = "neutralNEMO" %}
-{% set version = "0.9.4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/neutralnemo-{{ version }}.tar.gz
-  sha256: d569630fbde015daa532317edeba35240052ae1b1b2cfbd0f6c7d27cb6056131
+  sha256: 0a48e16887d4aaa782c721a276c4e7311ac288122e604582ab79c4528615f9d8
+
 
 build:
   noarch: python
@@ -16,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8,<3.9
-    - hatchling >1.17.0,<=1.17.1
+    - python >=3.8
+    - hatchling
     - pip
   run:
-    - python >=3.8,<3.9
+    - python >=3.8
     - neutralocean >=2.1.2
 
 test:
